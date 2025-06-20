@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product QnA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 15px;
+      width: 300px;
+    }
+    h2 {
+      margin-top: 0;
+      font-size: 18px;
+      color: #333;
+    }
+    textarea, input {
+      width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+      padding: 8px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    #answer {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #222;
+    }
+  </style>
+</head>
+<body>
+  <h2>🧠 Ask about this product</h2>
+  <input type="text" id="question" placeholder="Type your question here..." />
+  <button id="askBtn">Ask</button>
+  <div id="answer">Answer will appear here.</div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Product QnA Extension",
+  "version": "1.0",
+  "description": "Ask questions about the current product page using BERT.",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icon.jpg",
+      "48": "icon.jpg",
+      "128": "icon.jpg"
+    }
+  },
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"]
+}

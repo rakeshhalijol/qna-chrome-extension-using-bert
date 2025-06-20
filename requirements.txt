@@ -1,0 +1,17 @@
+pandas
+scikit-learn
+torch
+transformers
+python-dotenv
+matplotlib
+requests
+seaborn
+ipykernel
+streamlit
+fastapi
+uvicorn
+mlflow
+nltk
+wordcloud
+langchain
+langchain_ollama
